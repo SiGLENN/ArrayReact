@@ -16,7 +16,7 @@ function People(props) {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              Youtube
+              Play Game
             </a>
           </div>
         </div>

@@ -7,45 +7,45 @@ function App() {
   const [people, setPeople] = useState([
     {
         id: 1,
-        name: 'Cong Tv',
-        role: 'Ph Youtuber',
-        img: 'https://sgp1.digitaloceanspaces.com/storage.viyline.net/influencers/wznkT078uz-20211208.jpg',
-        link: 'www.youtube.com/@CongTheVlogger',
+        name: 'Dota 2',
+        role: 'MOBA (Multiplayer Online Battle Arena)',
+        img: 'https://i.pinimg.com/originals/8a/8b/50/8a8b50da2bc4afa933718061fe291520.jpg',
+        link: 'www.dota2.com/home',
     },
     {
         id: 2,
-        name: 'MrBeast',
-        role: 'Famous Youtuber',
-        img: 'https://yt3.googleusercontent.com/fxGKYucJAVme-Yz4fsdCroCFCrANWqw0ql4GYuvx8Uq4l_euNJHgE-w9MTkLQA805vWCi-kE0g=s900-c-k-c0x00ffffff-no-rj',
-        link: 'www.youtube.com/@MrBeast',
+        name: 'Mobile Legends',
+        role: 'MOBA (Multiplayer Online Battle Arena)',
+        img: 'https://contents.spin.ph/image/resize/image/2020/09/09/ml-oldlogo-1599651659.webp',
+        link: 'm.mobilelegends.com/',
     },
     {
         id: 3,
-        name: 'Ser Geybin',
-        role: 'Ph Youtuber',
-        img: 'https://yt3.googleusercontent.com/vynSkowRZM48sjIccjVZ4IadJwUu8HcYggQGtAbAO4HqHtXVMwvzopRnLjoD_N2lCIhAvfkw2g=s900-c-k-c0x00ffffff-no-rj',
-        link: 'www.youtube.com/@SerGeybin',
+        name: 'League of Legends',
+        role: 'MOBA (Multiplayer Online Battle Arena)',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQwc7LTMpJNkHf7EKncnObWLf49ghrWsUy5Q&s',
+        link: 'www.leagueoflegends.com/en-ph/',
     },
     {
         id: 4,
-        name: 'Cristiano Ronaldo',
-        role: 'Youtuber/Soccer',
-        img: 'https://yt3.googleusercontent.com/ytc/AIdro_mc7eEBFwMWSiVV7CYeWCKlc8bkLO9pKIlhApkejunj61M=s900-c-k-c0x00ffffff-no-rj',
-        link: 'www.youtube.com/@cristiano',
+        name: 'Counter-Strike 2',
+        role: 'FPS (First-Person Shooter)',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRVs8ylIEks-VBGmpUzHikPqucWo-GvXZBPA&s',
+        link: 'www.counter-strike.net/cs2',
     },
     {
         id: 5,
-        name: 'Ivana Alawi',
-        role: 'Ph Youtuber',
-        img: 'https://yt3.googleusercontent.com/ytc/AIdro_liNoc-J11Rg8j7CE7nbGQu4DpEahGrdXLQ7HEPSGQXitw=s900-c-k-c0x00ffffff-no-rj',
-        link: 'www.youtube.com/@IvanaAlawi',
+        name: 'Valorant',
+        role: 'FPS (First-Person Shooter)',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnl0iESfLjoSuDiaDzn6wzaEPCSdL_qFrLKw&s',
+        link: 'playvalorant.com/en-sg/',
     },
     {
         id: 6,
-        name: 'Malupiton',
-        role: 'Ph Youtuber',
-        img: 'https://yt3.googleusercontent.com/ZlyXCYeIrccrblVVb7zfAQvg8a3F9S5Pz2J7DIlAwufeEr7jUCK4htmQ3sb4l8Nh65I8OosJ=s900-c-k-c0x00ffffff-no-rj',
-        link: 'www.youtube.com/@malupitonofficial8425',
+        name: 'Genshin Impact',
+        role: 'ARPG (Action Role-Playing Game)',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAPHpfe_BWDsR7RJ0DLCcrGrc3Mu6tBWprhQ&s',
+        link: 'genshin.hoyoverse.com/en/home',
     },
   ]);
 
@@ -72,7 +72,7 @@ function App() {
           </div>
         </>
       ) : (
-        <p>No youtubers found.</p>
+        <p>No Game found.</p>
       )}
     </div>
     </>
